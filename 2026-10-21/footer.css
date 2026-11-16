@@ -1,0 +1,31 @@
+.site-footer{padding:0;background:#0a0a0a;border-top:1px solid rgba(201,162,77,.22);color:rgba(255,255,255,.78);font-family:var(--serif);font-size:14px;line-height:20px}
+.footer-shell{width:100%;max-width:1280px;margin-inline:auto;padding:56px 32px}
+.footer-grid{display:grid;grid-template-columns:1.1fr .7fr .9fr;gap:48px}
+.footer-grid>div{min-width:0}
+.site-footer .footer-brand{display:inline-flex;align-items:center;gap:12px;color:var(--gold)}
+.site-footer .footer-brand img{width:72px;height:72px;flex-shrink:0;border-radius:50%;object-fit:cover;background:#292929}
+.footer-brand strong{display:block;font-size:18px;font-weight:500;letter-spacing:.18em;line-height:1.25;text-transform:uppercase}
+.footer-brand small{display:block;font-size:12px;font-weight:400;letter-spacing:.28em;line-height:16px}
+.footer-established{margin-top:12px;color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.24em;line-height:16px}
+.footer-legal{margin-top:8px;line-height:24px;color:rgba(255,255,255,.72)}
+.footer-address{max-width:448px;margin-top:16px;line-height:28px;color:rgba(255,255,255,.72)}
+.site-footer .footer-instagram{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin-top:24px;color:var(--gold);border:1px solid rgba(201,162,77,.2);border-radius:50%;background:rgba(255,255,255,.05)}
+.footer-instagram svg{width:20px;height:20px}
+.site-footer h3{margin:0;font-family:var(--serif);font-size:14px;font-weight:600;letter-spacing:.24em;line-height:20px;text-transform:uppercase;color:rgba(201,162,77,.7)}
+.footer-link-list{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:20px}
+.footer-contact-list{display:grid;gap:16px;margin-top:20px}
+.footer-contact-list p{display:flex;align-items:flex-start;gap:12px}
+.footer-contact-list svg{flex-shrink:0;width:16px;height:16px;margin-top:2px;fill:none;stroke:var(--gold);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.site-footer a{transition:color .2s,background-color .2s}
+.footer-contact-list a{overflow-wrap:anywhere}
+.site-footer a:hover{color:var(--gold)}
+.site-footer .footer-instagram:hover{background:rgba(201,162,77,.1)}
+.footer-language{display:inline-flex;align-items:center;gap:4px;margin-top:24px;padding:4px;border:1px solid rgba(201,162,77,.2);border-radius:99px;background:rgba(0,0,0,.3)}
+.footer-language>span{display:flex;align-items:center;justify-content:center;width:32px;height:32px;color:var(--gold)}
+.footer-language svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.footer-language a{padding:6px 12px;border-radius:99px;line-height:20px;color:rgba(243,241,234,.7);font-weight:500}
+.footer-language a:hover{background:rgba(255,255,255,.05)}
+.footer-language a[aria-current=true]{background:var(--gold);color:#111}
+@media(max-width:1023px){.footer-grid{grid-template-columns:1fr}}
+@media(max-width:767px){.footer-shell{padding-inline:24px}}
+@media(max-width:639px){.footer-shell{padding-inline:16px}.footer-brand strong{font-size:16px}.footer-brand small{font-size:10px}}

@@ -1,0 +1,15 @@
+.contact-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.contact-form-status{font-size:13px;line-height:1.8;margin-top:16px;overflow-wrap:anywhere}
+.contact-form-status:empty{display:none}.contact-form-status[data-state=success]{color:#d4dcb5;border-left:2px solid #a0b577;padding-left:14px}
+.contact-form-status[data-state=error]{color:#f0cc9c;border-left:2px solid #c9a24d;padding-left:14px}
+.contact-form-fallback{display:inline-block;margin-top:18px;font-size:12px;color:var(--gold);text-decoration:underline;text-underline-offset:4px}
+.quote-form[aria-busy=true] input,.quote-form[aria-busy=true] textarea{opacity:.7}
+.quote-form .privacy-note{text-align:left;line-height:1.8;font-size:11px;margin-top:16px;color:#b5ad9e}
+.quote-form .form-note{font-size:12px;max-width:none}.quote-form input,.quote-form textarea{font-size:15px}
+.contact-page-form{padding:32px;border:1px solid #c9a24d33;border-radius:28px;background:#111110;margin-bottom:38px}
+.contact-page-form .quote-form{padding:0;border:0}.contact-page-form .quote-form h3{font-size:32px}
+@media(max-width:760px){.contact-page-form{padding:25px 20px;margin-bottom:28px;border-radius:25px}.quote-form input,.quote-form textarea{font-size:16px}.contact-page-form .quote-form h3{font-size:29px}}
+@media(max-width:480px){.quote-form .form-row{grid-template-columns:1fr;gap:0}}
+/* The privacy information appears before submission; it is an information notice. */
+.form-privacy-summary{margin:17px 0 19px;padding:15px 0;border-block:1px solid var(--line);font-size:11px;line-height:1.85;color:var(--muted)}
+.form-privacy-summary .privacy-note{margin:0;font-size:11px;line-height:1.85}.form-privacy-summary>a{display:inline-block;margin-top:7px;color:var(--gold);border-bottom:1px solid #b2a08466}.form-privacy-summary .privacy-sensitive{font-size:10px;line-height:1.8;margin-top:7px;color:var(--muted)}
